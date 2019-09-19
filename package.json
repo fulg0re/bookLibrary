@@ -18,6 +18,10 @@
   "homepage": "https://github.com/fulg0re/bookLibrary#readme",
   "dependencies": {
     "apollo-server": "^2.9.3",
-    "mongoose": "^5.7.1"
+    "mongoose": "^5.7.1",
+    "graphql": "^14.5.6",
+    "merge-deep": "^3.0.2",
+    "merge-graphql-schemas": "^1.7.0",
+    "randomstring": "^1.1.5"
   }
 }
