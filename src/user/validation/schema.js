@@ -5,6 +5,7 @@ const validationUserSchema = {
   },
   password: {
     type: 'String',
+    identical: 'confirmPassword',
     errorMessage: 'Password is not valid'
   },
   confirmPassword: {
