@@ -1,4 +1,4 @@
-const userValidateSchema = {
+const validationUserSchema = {
   username: {
     type: 'String',
     errorMessage: 'UserName is not valid'
@@ -25,4 +25,4 @@ const userValidateSchema = {
   }
 };
 
-module.exports = { userValidateSchema };
+module.exports = { validationUserSchema };
