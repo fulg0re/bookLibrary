@@ -1,13 +1,4 @@
-const { inputValidate } = require('../../../input-validator');
-const { userValidateSchema } = require('./schema/user');
-const { validateOptions } = require('./options/user');
+const { validationUserOptions } = require('./options');
+const { validationUserSchema } = require('./schema');
 
-const validateCreateNewUserInput = async (input) => {
-  try {
-    return await inputValidate(input, userValidateSchema, validateOptions)
-  } catch (err) {
-    console.log(err);
-  }
-};
-
-module.exports = { validateCreateNewUserInput };
+module.exports = { validationUserOptions, validationUserSchema };
